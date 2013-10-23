@@ -1,6 +1,7 @@
 ### Lab3
 1\.Zadanie 1 (do poprawy)
-```
+
+```sh 
 #include <stdio.h>
 int main () {
 int n;
@@ -27,7 +28,7 @@ return 0;
 
 "Wersja ogólna"
 
-```
+```sh
 #include <stdio.h>
 int main () {
 int n, i;
