@@ -1,0 +1,32 @@
+```sh
+#include<stdio.h>
+int main()
+{
+int dolna, gorna, n, i, suma=0;
+double r;
+printf("podaj liczbe rzeczywista r>0  \n");
+scanf("%lf",&r);
+while (r<0)
+        { printf ("liczba mniejsza od zera, podaj dodatnia liczbe: \n");
+        scanf("%lf",&r);
+        }
+printf("podaj liczbe naturalna n (dlugosc ciagu): \n");
+scanf("%i",&n);
+int tab[n];
+
+printf(" r= %lf n= %i \n",r,n);
+
+printf("podaj liczby \n");
+for(i=0;i<n;i++)
+scanf("%i", &tab[i]);
+
+dolna=0; gorna=0; suma=tab[0]; //suma=a[dolna]+a[dolna+1]+...+a[gorna]
+while  (gorna<n && suma!=r)
+if (suma<r) { gorna=gorna+1; suma=suma+tab[gorna]; }
+ else { suma=suma-tab[dolna]; dolna=dolna+1;}
+
+printf("\n  ZNALEZIONO! \n \n \n suma jest pomiedzy %i a %i \n", dolna, gorna);
+
+return 0;
+}
+```
