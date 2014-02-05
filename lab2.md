@@ -51,9 +51,9 @@ int main() {
 	return 0;
 }
 ```
-3\.Napisać i uruchomić program w C, który wczytuje liczbę naturalną n i drukuje kolejne cyfry zapisu liczby n w ósemkowym systemie pozycyjnym, w kolejności od najmniej znaczącej.
-Wskazówka:
-Ostatnią cyfrą ósemkowego rozwinięcia liczby n jest n%8, czyli reszta z dzielenia n przez 8. Wszystkie poprzedzające cyfry ósemkowe składają się na ósemkowy zapis ilorazu całkowitego  n/8 .
+3\.Napisać i uruchomić program w C, który wczytuje liczbę naturalną n i drukuje kolejne cyfry zapisu liczby n w ósemkowym systemie pozycyjnym, w kolejności od najmniej znaczącej. \n
+Wskazówka: \n
+Ostatnią cyfrą ósemkowego rozwinięcia liczby n jest n%8, czyli reszta z dzielenia n przez 8. Wszystkie poprzedzające cyfry ósemkowe składają się na ósemkowy zapis ilorazu całkowitego  n/8 . \n
 
 ```sh
 #include <stdio.h>
@@ -75,11 +75,11 @@ getchar();
 	return 0;
 }
 ```
-4\.Napisać i uruchomić program w C, który wczytuje:
-*liczbę cyfr ósemkowych k,
-*kolejne k cyfr ósemkowych c1,c2,c3, . . . ,ck
-*i drukuje liczbę naturalną wyrażoną tymi cyframi; czyli liczbę
-*(...((c1*8 + c2 )*8 + c3 )*8 + ... )*8 + ck
+4\.Napisać i uruchomić program w C, który wczytuje: \n
+*liczbę cyfr ósemkowych k, \n
+*kolejne k cyfr ósemkowych c1,c2,c3, . . . ,ck \n
+*i drukuje liczbę naturalną wyrażoną tymi cyframi; czyli liczbę \n
+*(...((c1*8 + c2 )*8 + c3 )*8 + ... )*8 + ck \n
 
 ```sh
 #include <stdio.h>
