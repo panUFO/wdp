@@ -1,4 +1,4 @@
-###LAB6
+###LAB6 
 https://inf.ug.edu.pl/~stefan/Dydaktyka/WstepDoProg/Slajdy/lab-06/index.html
 
 1\.Napisać program, który potrafi wczytać dwie bardzo duże nieujemne liczby całkowite (składające się z bardzo wielu cyfr), dodać je i wydrukować wynik. Program powinien potrafić wykonać np. takie działanie: <br />
