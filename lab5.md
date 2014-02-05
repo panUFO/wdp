@@ -1,4 +1,4 @@
-###LAB5
+###LAB5 
 https://inf.ug.edu.pl/~stefan/Dydaktyka/WstepDoProg/Slajdy/lab-05/index.html
 
 1\.Wczytujący tablicę liczb rzeczywistych i drukujący zestawienie, ile w niej jest liczb ujemnych, ile zer i ile liczb dodatnich. <br />
