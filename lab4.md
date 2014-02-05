@@ -1,4 +1,4 @@
-###LAB4
+###LAB4 
 https://inf.ug.edu.pl/~stefan/Dydaktyka/WstepDoProg/Slajdy/lab-04/index.html
 
 1\.Napisać i uruchomić program w C, który wczytuje ciąg liczb naturalnych (czyli: całkowitych nieujemnych) i drukuje ten ciąg w odwrotnej kolejności. <br />
