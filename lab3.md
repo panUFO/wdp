@@ -1,4 +1,4 @@
-###LAB3
+###LAB3 
 https://inf.ug.edu.pl/~stefan/Dydaktyka/WstepDoProg/Slajdy/lab-03/index.html
 
 1\.Napisać i uruchomić program w C, który wczytuje <br />
